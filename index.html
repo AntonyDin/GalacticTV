@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <script type="text/javascript" charset="utf-8" id="zm-extension" src="chrome-extension://cnhbkkedmelfmalgjpkngiaoifpdfcnl/scripts/webrtc-patch.js" async=""></script>
 <head>
   <meta charset="UTF-8">
   <title>TV для все галактик</title>
@@ -15,12 +16,15 @@
   <link rel="stylesheet" href="css/fares.css">
   <link rel="stylesheet" href="css/action.css">
   <link rel="stylesheet" href="css/header.css">
+
+  <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="parallax.js-1.5.0/parallax.js"></script>
 </head>
 <body>
 <div class="header">
   <div class="container buffer-both">
     <div class="header-logo">
-      <div class="title-logo text-left">МежпространственноеTV</div>
+      <img class="header-logo-image" src="logo.png" alt="МежпространственноеTV" />
     </div>
     <div class="header-nav">
       <ul>
@@ -35,7 +39,7 @@
   </div>
 </div>
 
-<div class="intro text-left" id="intro">
+<div class="intro text-left" id="intro" data-parallax="scroll" data-image-src="bg.jpeg">
   <h1 class="title-large">Подключайте <br>Межпространственное TV<br>за 1000р</h1>
   <h2 class="text-intro">Семья Смит покоряеет гору Олимп<br>убив тысячу марсиан</h2>
   <div class="buffer-both">
