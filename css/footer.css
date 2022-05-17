@@ -1,0 +1,14 @@
+.footer {
+  height: 50px;
+  background: rgb(59, 141, 152);
+  width: 100%;
+  background-color: #777;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-text {
+  text-align: center;
+  padding-top: 7px;
+}

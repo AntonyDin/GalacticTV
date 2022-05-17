@@ -1,0 +1,30 @@
+.client {
+  padding: 40px 0;
+  background: #eee;
+}
+
+.member-image {
+  display: inline-block;
+  float: left;
+  width: 140px;
+}
+
+.member-photo {
+  border: 5px solid #fff;
+  border-radius: 100%;
+  height: auto;
+  width: 142px;
+  height: 142px;
+}
+
+.member-details {
+  display: inline-block;
+  max-width: 270px;
+  margin-left: 20px;
+}
+
+
+
+.member-details .text-medium {
+  margin-bottom: 20px;
+}
