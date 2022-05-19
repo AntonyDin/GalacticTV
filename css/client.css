@@ -23,8 +23,37 @@
   margin-left: 20px;
 }
 
-
-
 .member-details .text-medium {
   margin-bottom: 20px;
+}
+
+@media (max-width: 750px) {
+  .member-details {
+    display: inline-block;
+    max-width: 500px;
+    margin-left: 20px;
+}
+}
+
+@media (max-width: 670px) {
+  .member-details {
+    display: inline-block;
+    max-width: 400px;
+    margin-left: 20px;
+ }
+}
+
+@media (max-width: 575px) {
+  .member-details {
+    display: inline-block;
+    max-width: 300px;
+    margin-left: 20px;
+ }
+}
+
+@media (max-width: 470px) {
+  .member-details {
+    max-width: 350px;
+    margin-left: 20px;
+ }
 }

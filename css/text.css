@@ -3,6 +3,7 @@ body {
   color: #444;
   font-size: 16px;
 }
+
 .title-logo {
   font-size: 28px;
   font-weight: bold;
@@ -45,14 +46,14 @@ body {
 }
 
 .text-medium {
-  font-size: 14px;
   line-height: 24px;
-
 }
+
 small {
   padding-top: 10px;
   padding-bottom: 80px;
 }
+
 .text-small {
   font-size: 14px;
   font-style: italic;
@@ -65,3 +66,4 @@ small {
 .text-center {
   text-align: center;
 }
+
