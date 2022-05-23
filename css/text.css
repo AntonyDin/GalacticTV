@@ -1,69 +1,79 @@
 body {
-  font-family: "Georgia", sans-serif;
+  font-family: sans-serif;
   color: #444;
-  font-size: 16px;
-}
-
-.title-logo {
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 25px;
 }
 
 .title-large {
-  padding-top: 40px;
-  font-size: 47px;
-  margin-bottom: 18px;
-  text-align: left;
-  padding-top: 100px;
-}
-
-.text-intro {
-  color: #ececec;
-  font-size: 16px;
-  font-weight: bolder;
-  margin-bottom: 40px;
-  text-align: left;
-  padding-top: 20px;
-}
-
-.text-lead {
-  color: #ececec;
-  font-size: 16px;
-  font-weight: bolder;
-
-  text-align: left;
+  color: #444;
+  font-size: 48px;
+  padding-bottom: 18px;
 }
 
 .title-medium {
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 44px;
   margin-bottom: 12px;
 }
 
 .title-small {
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 6px;
 }
 
-.text-medium {
-  line-height: 24px;
-}
-
-small {
-  padding-top: 10px;
-  padding-bottom: 80px;
-}
-
 .text-small {
-  font-size: 14px;
-  font-style: italic;
-  line-height: 100%;
+  font-size: 25px;
+  line-height: 24px;
+  margin-bottom: 12px;
 }
-.text-left{
-  text-align: left;
+
+.client-member {
+  margin-left: 10px ;
 }
 
 .text-center {
   text-align: center;
 }
 
+@media (max-width: 830px) {
+  body {
+    font-size: 14px;
+  }
+
+  .client-member {
+    margin-left: 5px ;
+  }
+
+  .title-medium {
+    font-size: 35px;
+    margin-bottom: 12px;
+  }
+
+  .text-small {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .title-small {
+    font-size: 30px;
+    margin-bottom: 6px;
+  }
+}
+
+@media (max-width: 645px) {
+  .title-large {
+    color: #444;
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 345px) {
+  .text-small {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+}

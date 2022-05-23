@@ -1,6 +1,7 @@
 .button {
-  border-radius: 3px;
-  font-size: 16px;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 22px;
   text-decoration: none;
   padding: 15px 30px;
   text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15);
@@ -10,11 +11,20 @@
 .button-green {
   background: #00c41d;
   color: #fff;
+  margin-left: 60px;
 }
 
-@media (max-width: 750px) {
+.button-green:hover {
+  background: #0ba222;
+  transition: all ease .3s;
+}
+
+@media (max-width: 645px) {
   .button {
-  display: inline-block;
-  font-size: 20px;
+    font-size: 14px;
+  }
+
+  .button-green {
+    margin-left: 0px;
   }
 }
