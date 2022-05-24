@@ -7,12 +7,12 @@ body {
 .title-large {
   color: #444;
   font-size: 48px;
-  padding-bottom: 18px;
+  padding-bottom: 5px;
 }
 
 .title-medium {
   font-size: 54px;
-  margin-bottom: 18px;
+  margin-bottom: 38px;
 }
 
 .title-small {
@@ -36,7 +36,7 @@ body {
 
 @media (max-width: 830px) {
   body {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .client-member {
@@ -71,9 +71,5 @@ body {
   .text-small {
     font-size: 14px;
     line-height: 14px;
-  }
-
-  body {
-    font-size: 14px;
   }
 }
